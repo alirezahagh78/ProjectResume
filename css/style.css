@@ -1,0 +1,233 @@
+body {
+    font-family: "B Yekan";
+
+    background-color: #2A2F4F;
+    /* color: #fff; */
+}
+
+header {
+    display: flex;
+    margin-top: 20px;
+}
+
+.image {
+    width: 100px;
+}
+
+.nav a {
+
+    color: #fff;
+}
+
+.nav {
+    margin-top: 20px;
+    font-size: 17px;
+    margin-right: 150px;
+}
+
+.nav a:hover {
+    background-color: #917FB3;
+    color: #2A2F4F;
+    border-radius: 5px;
+}
+
+.image-person {
+    margin-top: 50px;
+    width: 450px;
+    border-radius: 15px;
+    border: 5px solid #917FB3;
+}
+
+.text-wrapper {
+    margin-top: 100px;
+}
+
+#typing {
+    color: #fff;
+    font-size: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) 1s infinite alternate;
+}
+
+#typing span {
+    font-size: 25px;
+    color: #E5BEEC;
+}
+
+.animated-text {
+    width: 100%;
+    display: flex;
+}
+
+.text-name {
+    color: #fff;
+    font-size: 25px;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 43%
+    }
+}
+
+.social {
+    color: #fff;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    margin-left: 10px;
+    transition: .3s;
+    z-index: 2;
+    text-decoration: none;
+    align-content: center;
+    justify-content: center;
+}
+
+.social ul li a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    box-shadow: #fff;
+    background: #2A2F4F;
+    transition: .3s;
+    z-index: -1;
+    color: #fff;
+}
+
+.fab {
+    color: #fff;
+}
+
+.para {
+    word-spacing: 1.5px;
+    color: #fff;
+}
+
+.text {
+    font-size: 30px;
+    font-family: "B Yekan";
+    color: #f02981;
+    animation: typing1 5s steps(22) 1s infinite alternate;
+}
+
+/* @keyframes typing1{
+    from { width: 15% }
+    to { width: 300% }
+} */
+.card i {
+    color: #D81B60;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.card-title {
+    color: #f02981;
+    text-align: center;
+}
+
+hr {
+    color: #fff;
+}
+
+/* .card-group{
+    margin-right: 2px;
+    border-radius: 5px;
+} */
+.card {
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.skill-labl {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.skill-progress {
+    width: 0;
+    border-radius: 14px;
+    background: #f02981;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+
+#myTab li button {
+    color: #fff;
+}
+
+#myTab li button:hover {
+    background-color: #D81B60;
+}
+
+.tab-content {
+    color: white;
+}
+
+h2 {
+    font-family: "B Mitra";
+}
+
+li .fa-times {
+    color: #D81B60;
+
+}
+
+li .fa-check {
+    color: darkgreen;
+}
+
+.body {
+    list-style: none;
+    font-size: 17px;
+    margin-right: 10%;
+    text-align: right;
+}
+
+.times-li {
+    margin-right: 200px;
+    margin-top: -130px;
+}
+img{
+    border-radius: 5px;
+}
+.image-call{
+    margin-right:5%;   
+}
+.call{
+    background-color:#2A2F4F;
+    text-align: center;
+}
+h3{
+    font-family: "B Mitra";
+    color: white;
+}
+.call-text{
+    color: white;
+    font-size: 17px;
+}
+.footer{
+    color: white;
+    font-size: 17px;
+    font-family:"B Mitra";
+    text-align: center;
+}
